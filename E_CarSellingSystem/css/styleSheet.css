@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    position: relative;
+    min-height: 50px;
+    margin-bottom: -1px;
+    border: 1px solid transparent;
+}
+.navbar-default {
+    background:linear-gradient(#47484b,#aea0d4, #47484b);
+    color:;
+}
+body{
+   
+    background: #f5f5f5;
+    overflow: hidden;
+    
+}
+
+
+.present, .fast-present{
+    color: #513797;
+    background: #9a8fb9;
+    border-radius: 50px;
+    box-shadow: 2px 2px 5px 2px black;
+    margin-left: 15px;
+    transition: .2s;
+}
+ .present:hover{
+  background: #513797;
+  transform: scale(1.1);
+}
+.fast-present{
+    margin-left: 580px;
+}
+.fast-present:hover{
+   background: #513797;
+  transform: scale(1.1); 
+}
+.navbar-nav {
+   
+}
+.panel-top{
+height: 40px;
+background:rgba(39,29,78,.9);     
+}
+.panel-side{
+  
+    height: 622px;
+    background:#47484b;
+    overflow: auto;
+}
+
+.fa-shopping-cart, .fa-wrench, .fa-group, .fa-edit, .fa-car, .fa-arrow-left, .fa-home{
+    font-size: 20px;
+    color: white;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: black;
+    background: #9a8fb9;
+    border-radius: 60px;
+    box-shadow: 2px 2px 5px 2px black;
+}
+.panel-info>.panel-heading {
+    color: white;
+    background:linear-gradient(#47484b,#aea0d4, #47484b);
+    border-color:#716c82;
+}
+.panel-info {
+    border-color:#716c82;
+    background: #716c82;
+}
+.left-panel-body ul li{
+    background: gray;
+    list-style: none;
+    background:linear-gradient(#47484b,#aea0d4, #47484b);
+    padding: 5px 5px;
+    border-radius: 10px;
+    border-bottom:#716c82;
+    margin-bottom: 7px;
+    transition: .2s;
+}
+.left-panel-body ul li:hover{
+    transform: scale(1.1);
+}
+.side-button a {
+    color: white;
+    text-decoration: none;
+}
+.space{
+    color: transparent;
+}
+.btn-default {
+    color: white;
+    font-weight: bold;
+    background:linear-gradient(#47484b,#aea0d4, #47484b);
+    border-color: #47484b;
+}
+.btn-default:hover {
+    color: white;
+    font-weight: bold;
+    background:linear-gradient(#47484b,#aea0d4, #47484b);
+    border: none;
+}
+.panel-default>.panel-heading {
+    color: black;
+    border-color: transparent;
+}
+.car-image{
+   
+}
+.panel-success {
+    border-color: rgba(128,128,128.6);
+    background:white;
+    box-shadow: 5px 8px 12px 5px gray;
+}
+.green{
+    color: limegreen;
+    font-weight: bold;
+}
+.memeber{
+    border-color: rgba(128,128,128.6);
+    background:#dff0d8;
+    box-shadow: 5px 5px 12px 5px gray; 
+    border-radius: 20px;
+    margin-bottom: 15px;
+    
+    
+}
+.memeber img{
+    border-radius: 50%;
+}
+.memeber a{
+    float: right;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 25px 0px;
+}
+.membersPanel{
+   overflow: auto;
+    height: 470px;
+}
+::-webkit-scrollbar{
+    background: none;
+    width: 0px;
+    
+}
+.carousel-control {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 15%;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+     text-shadow: blue;
+    background-color: rgba(0,0,0,0);
+    filter: alpha(opacity=50);
+    opacity: .5;
+}
+.car-panel-body{
+    height: 600px;
+}
+.price{
+    color: green;
+    
+}
+marquee p{
+    color:white;
+    font-weight: bold;
+}
+.back{
+    color: #513797;
+    background: #9a8fb9;
+    border-radius: 50px;
+    box-shadow: 2px 2px 5px 2px black;
+    transition: .2s;
+    margin: 0px 5px;
+}
+.car-panel-body{
+    border-color: rgba(128,128,128.6);
+    background:white;
+    box-shadow: 5px 8px 12px 5px gray;
+  height: 220px;
+    max-width:440px;
+    margin:10px 35px;
+    padding: 2px 2px;
+    transition: .3s;
+}
+.car-panel-body:hover{
+    border-color: rgba(128,128,128.6);
+    background:white;
+    box-shadow: 5px 8px 12px 5px gray;
+    height: 220px;
+    max-width:440px;
+    margin:10px 35px;
+    padding: 2px 2px;
+    transform: scale(1.1);
+}
+.all-car{
+    overflow: auto;
+    height: 470px;
+}
+.car-image, .car-about{
+    margin-top: 5px;
+}
+.car-editing{
+    overflow: auto;
+    height: 470px;
+}
+.fa-car{
+    color: green;
+}
